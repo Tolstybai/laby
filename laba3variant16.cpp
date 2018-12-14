@@ -27,7 +27,7 @@ int main() {
 			b = i;
 		}
 		}
-	for (int i = 0; i < b; i++)s += abs(Arr[i]);
+	for (int i = b; i < N; i++)s += abs(Arr[i]);
 	cout << "sum=" << s<<endl;
 	for (int i = 0; i < N; i++) {
 		if (Arr[i] < 0)Arr[i] = Arr[i] * Arr[i];
