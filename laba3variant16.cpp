@@ -50,6 +50,7 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		cout << Arr[i] << " ";
 	}
+	delete[]A;
 	cin.get();
 	cin.get();
 }
